@@ -1,0 +1,16 @@
+:root{
+    --primary: #D91656;
+    --bg: #C14600;
+}
+
+*{
+    font-family: "Lato", serif;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+}
+body{
+    font-family: "Lato", serif;
+    background-color: var(--bg);
+}
