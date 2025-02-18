@@ -1,0 +1,115 @@
+:root {
+    --primary:#ffa600;
+    --bg:#4C7B8B;
+}
+
+
+* {
+    
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+
+body {
+    
+    font-family: "Roboto Mono", serif;
+    background-color: var(--bg);
+    color: aliceblue;
+
+}
+
+.navbar  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4rem 7%;
+    background-color: rgba(5, 116, 79, 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    
+}
+
+.navbar .navbar-logo {
+    color: blue;
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+.navbar .navbar-logo span {
+    color: red;
+}
+
+.navbar .navbar-nav a{
+    color: aliceblue;
+    display: inline-block
+    margin: 0 1.4rem;
+    font-size: 1rem:
+    
+}
+.navbar .navbar-nav a:hover{
+    color: var(--primary);
+
+}
+
+.navbar .navbar-extra a {
+    color: aliceblue;
+    margin: 0 1.2rem;
+
+}
+.navbar .navbar-nav a:hover{
+    color: var(--primary);
+}
+.home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url(../img/IMG-20250218-WA0000.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.home .content{
+    max-width: 80rem;
+    padding: 1rem 7%;
+}
+.home .content h1{
+    font-size: 3em;
+    color: rgb(17, 21, 216);
+    line-height: 1.2;
+    text-shadow: 1px 1px 3px white;
+}
+.home .content p{
+    font-weight:300;
+    color: #2f00ff;
+    line-height: 1.2;
+    text-shadow: #ffa600;
+    margin-top: 1rem;
+
+}
+/* MEDIA QUERTID*/
+@MEDIA (max-width: 900px){
+    html(
+    font-size: 70%;
+    }
+}
+/* LAPTOP*/
+@MEDIA (max-width: 600px){
+    html{
+    font-size: 70%;
+    }
+    }
+/* LAPTOP*/
+@MEDIA (max-width: 300px){
+    html{
+    font-size: 50%;
+    }
+    }
